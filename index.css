@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.item {
+    background-color: aqua;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
